@@ -36,7 +36,7 @@ const anotherId = Symbol("123");
 
 console.log(typeof anotherId); // symbol
 
-console.log(id === anotherId);
+console.log(id === anotherId); // false
 
 const bigNumber = 32480380482038403280412340n;
 console.log(typeof bigNumber); // bigint
@@ -47,10 +47,10 @@ console.log(typeof bigNumber); // bigint
 const heros = ["spiderman", "ironman", "thor"];
 
 const myObj = {
-  name: "Ashish",
-  age: 20,
+    name: "Ashish",
+    age: 20,
 };
 
 const myFunction = function () {
-  console.log("hello world");
+    console.log("hello world");
 };

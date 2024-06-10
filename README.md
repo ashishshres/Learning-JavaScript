@@ -1,6 +1,6 @@
 # Learning JavaScript🔰
 
-### [1. Basics]()
+### [1. Basics](./01_Basics/)
 
 -   Variables, Datatypes
 -   Conversion Operations

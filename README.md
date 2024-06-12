@@ -11,3 +11,4 @@
 ### [2. Arrays and Objects](./02_Arrays_and_Objects/)
 
 -   Arrays
+-   Objects

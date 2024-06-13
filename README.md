@@ -12,3 +12,5 @@
 
 -   Arrays
 -   Objects
+-   Objects Destructuring
+-   JSON

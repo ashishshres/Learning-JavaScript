@@ -14,3 +14,7 @@
 -   Objects
 -   Objects Destructuring
 -   JSON
+
+### [3. Functions](./03_Functions/)
+
+-   Functions

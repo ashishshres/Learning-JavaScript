@@ -19,3 +19,4 @@
 
 -   Functions
 -   Scopes
+-   Arrow Functions

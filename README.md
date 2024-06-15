@@ -20,3 +20,4 @@
 -   Functions
 -   Scopes
 -   Arrow Functions
+-   This

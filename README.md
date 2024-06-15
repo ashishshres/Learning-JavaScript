@@ -18,3 +18,4 @@
 ### [3. Functions](./03_Functions/)
 
 -   Functions
+-   Scopes

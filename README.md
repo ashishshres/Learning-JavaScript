@@ -22,3 +22,4 @@
 -   Arrow Functions
 -   This
 -   IIFE
+-   Execution Context

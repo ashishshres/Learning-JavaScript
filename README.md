@@ -24,6 +24,6 @@
 -   IIFE
 -   Execution Context
 
-### [4. Conditionals](./04_Control_Flow/)
+### [4. Conditionals](./04_Conditionals/)
 
 -   if and else

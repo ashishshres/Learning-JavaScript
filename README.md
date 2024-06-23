@@ -26,4 +26,5 @@
 
 ### [4. Conditionals](./04_Conditionals/)
 
--   if and else
+-   If and Else
+-   Switch Statements

@@ -28,3 +28,4 @@
 
 -   If and Else
 -   Switch Statements
+-   Truthy and Falsy

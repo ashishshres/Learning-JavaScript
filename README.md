@@ -29,3 +29,7 @@
 -   If and Else
 -   Switch Statements
 -   Truthy and Falsy
+
+### [5. Iterations](./05_Iterations/)
+
+-   For Loop

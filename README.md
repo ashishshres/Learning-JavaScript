@@ -2,3 +2,4 @@
 
 ## Basics
 - Variables
+- Datatypes

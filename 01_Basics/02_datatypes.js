@@ -26,6 +26,7 @@ let isLoggedIn = false // boolean
 // object
 // array
 
-console.log(typeof 10) // number
+// console.log(typeof 10) // number
+console.log(typeof (10)) // number
 console.log(typeof null) // object
 console.log(typeof undefined) // undefined

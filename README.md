@@ -7,3 +7,4 @@
 - Comparision
 - Stack and Heap Memory
 - Strings
+- Numbers

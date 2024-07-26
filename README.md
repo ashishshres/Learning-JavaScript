@@ -14,3 +14,4 @@
 ## Arrays
 - Push, Pop, Shift, Unshift
 - Slice, Splice
+- `concat()`, Spread Operator, `flat()`, `Array.isArray()`, `Array.from()`, `Array.of()` 

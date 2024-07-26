@@ -10,3 +10,7 @@
 - Numbers
 - Maths
 - Dates
+
+## Arrays
+- Push, Pop, Shift, Unshift
+- Slice, Splice

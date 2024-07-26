@@ -12,6 +12,6 @@
 - Dates
 
 ## Arrays
-- Push, Pop, Shift, Unshift
-- Slice, Splice
+- `push`, `pop`, `shift`, `unshift`
+- `slice`, `splice`
 - `concat()`, Spread Operator, `flat()`, `Array.isArray()`, `Array.from()`, `Array.of()` 

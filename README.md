@@ -9,3 +9,4 @@
 - Strings
 - Numbers
 - Maths
+- Dates

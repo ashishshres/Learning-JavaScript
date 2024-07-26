@@ -4,3 +4,4 @@
 - Variables
 - Datatypes
 - Conversion and Operation
+- Comparision

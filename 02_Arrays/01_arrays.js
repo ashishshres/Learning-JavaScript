@@ -66,6 +66,3 @@ console.log("C", myArr1);
 # `slice` do not manipulate the original array
 # `splice` manipulate the original array
 */
-
-
-

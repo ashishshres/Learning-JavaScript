@@ -8,3 +8,4 @@
 - Stack and Heap Memory
 - Strings
 - Numbers
+- Maths

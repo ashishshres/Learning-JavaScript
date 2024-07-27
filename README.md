@@ -54,3 +54,4 @@
 -   `while` loop
 -   `do-while` loop
 -   `forof` loop, `forin` loop, `forEach` loop
+-   `map`, `filter` and `reduce`

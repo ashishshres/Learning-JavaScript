@@ -51,6 +51,8 @@ let result2 = addNum(2, 4);
 
 # Call Stack
 
+-   Call Stack is based on LIFO(Last In, First Out) principle.
+
 ## Example
 
 ```js

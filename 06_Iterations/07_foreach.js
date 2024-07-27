@@ -4,7 +4,7 @@
 
 // });
 
-const coding = ["js", "ruby", "java", "python", "cpp"];
+// const coding = ["js", "ruby", "java", "python", "cpp"];
 
 // coding.forEach(function (item) {
 //     console.log(item); // js ruby java python cpp
@@ -42,3 +42,12 @@ const myCoding = [
 myCoding.forEach((item) => {
     console.log(item.languageName);
 });
+
+// forEach loop do not return anything
+const coding = ["js", "ruby", "java", "python", "cpp"];
+const values = coding.forEach((item) => {
+    // console.log(item);
+    // return item;
+});
+
+console.log(values); // undefined

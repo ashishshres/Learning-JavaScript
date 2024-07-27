@@ -38,3 +38,7 @@
 -   Arrow Functions
 -   IIFE
 -   Execution Context and Call Stack
+
+## Conditionals
+
+-   `if` and `else` statements

@@ -53,3 +53,4 @@
 -   `break` and `continue`
 -   `while` loop
 -   `do-while` loop
+-   `forof` loop, `forin` loop, `forEach` loop

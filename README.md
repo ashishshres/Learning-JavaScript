@@ -42,3 +42,7 @@
 ## Conditionals
 
 -   `if` and `else` statements
+-   `switch` statements
+-   Truthy and Falsy values
+-   Nullish Coalescing Operator `??`
+-   Ternary Operator `?:`

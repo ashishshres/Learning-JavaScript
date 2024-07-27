@@ -51,3 +51,5 @@
 
 -   `for` loop
 -   `break` and `continue`
+-   `while` loop
+-   `do-while` loop

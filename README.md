@@ -37,3 +37,4 @@
 -   Scopes, `this`
 -   Arrow Functions
 -   IIFE
+-   Execution Context and Call Stack

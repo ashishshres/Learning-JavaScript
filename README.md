@@ -34,3 +34,4 @@
 -   Returning from a Function
 -   Passing Objects to a Function
 -   Passing Arrays to a Function
+-   Scopes

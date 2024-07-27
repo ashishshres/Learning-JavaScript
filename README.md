@@ -35,3 +35,4 @@
 -   Passing Objects to a Function
 -   Passing Arrays to a Function
 -   Scopes, `this`
+-   Arrow Functions

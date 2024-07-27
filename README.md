@@ -46,3 +46,8 @@
 -   Truthy and Falsy values
 -   Nullish Coalescing Operator `??`
 -   Ternary Operator `?:`
+
+## Iterations
+
+-   `for` loop
+-   `break` and `continue`

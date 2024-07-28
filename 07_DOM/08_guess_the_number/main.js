@@ -32,7 +32,7 @@ function validateGuess(guess) {
     } else {
         previousGuess.push(guess);
         if (numGuess === 11) {
-            displayGuess(guess);
+            // displayGuess(guess);
             displayGuess(`Game Over! Random number was ${randomNumber}`);
             endGame();
         } else {
@@ -82,7 +82,7 @@ function newGame() {
     newGameBtn.addEventListener("click", (e) => {
         randomNumber = parseInt(Math.random() * 100 + 1);
         previousGuess = [];
-        numGuess = 11;
+        numGuess = 1;
         guessLot.innerHTML = "";
         remaining.innerHTML = `${11 - numGuess}`;
         userNumber.removeAttribute("disabled");

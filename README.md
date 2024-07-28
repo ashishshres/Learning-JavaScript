@@ -55,3 +55,8 @@
 -   `do-while` loop
 -   `forof` loop, `forin` loop, `forEach` loop
 -   `map`, `filter` and `reduce`
+
+## Document Object Model (DOM)
+
+-   DOM Tree
+-   `getElementById()`, `getElementsByClassName()`, `querySelector()`, `querySelectorAll()`

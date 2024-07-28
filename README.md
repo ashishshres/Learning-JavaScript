@@ -63,3 +63,4 @@
 -   Traversing in DOM Tree
 -   Creating a New Element
 -   Editing and Removing DOM Elements
+-   Events, Event Propagation, Event Bubbling, Event Capturing

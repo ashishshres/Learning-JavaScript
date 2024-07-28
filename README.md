@@ -62,3 +62,4 @@
 -   `getElementById()`, `getElementsByClassName()`, `querySelector()`, `querySelectorAll()`
 -   Traversing in DOM Tree
 -   Creating a New Element
+-   Editing and Removing DOM Elements

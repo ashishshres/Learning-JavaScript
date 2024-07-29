@@ -6,6 +6,7 @@ let lowerCase = document.querySelector("#lowercase");
 let number = document.querySelector("#number");
 let symbol = document.querySelector("#symbol");
 let generatePasswordBtn = document.querySelector(".generate-password");
+let copyBtn = document.querySelector(".copy");
 
 rangeValue.textContent = range.value;
 range.addEventListener("input", function() {
@@ -17,10 +18,11 @@ let lowerCaseStr = "abcdefghijklmnopqrstuvwxyz";
 let numberStr = "0123456789";
 let symbolStr = "!@#$%^&*()_+-=[]{},.<>/?|`~";
 let passwordStr;
+let newPassword;
 
 function generatePassword() {
     checkFields();
-    let newPassword = "";
+    newPassword = "";
     for(let i = 0; i < range.value; i++) {
         let random = Math.floor(Math.random() * passwordStr.length);
         newPassword += passwordStr[random];
@@ -46,3 +48,6 @@ function checkFields() {
 }
 
 generatePasswordBtn.addEventListener("click", generatePassword);
+copyBtn.addEventListener("click", function() {
+    navigator.clipboard.writeText(newPassword);
+})

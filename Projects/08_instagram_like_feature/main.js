@@ -5,5 +5,5 @@ container.addEventListener("dblclick", function () {
     love.style.transform = "translate(-50%, -50%) scale(2)";
     setTimeout(() => {
         love.style.transform = "translate(-50%, -50%) scale(0)";
-    }, 3000);
+    }, 2000);
 });

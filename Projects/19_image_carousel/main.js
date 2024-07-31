@@ -39,7 +39,7 @@ let interval;
 function startSlider() {
     if (slides.length > 0) {
         slides[slideIdx].classList.add("display-slide");
-        interval = setInterval(nextSlide, 2000);
+        interval = setInterval(nextSlide, 3000);
     }
 }
 
@@ -61,12 +61,14 @@ function prevSlide() {
     clearInterval(interval);
     slideIdx--;
     showSlide(slideIdx);
-    interval = setInterval(nextSlide, 2000);
+    interval = setInterval(nextSlide, 3000);
 }
 
 function nextSlide() {
+    clearInterval(interval);
     slideIdx++;
     showSlide(slideIdx);
+    interval = setInterval(nextSlide, 3000);
 }
 
 document.addEventListener("DOMContentLoaded", startSlider);

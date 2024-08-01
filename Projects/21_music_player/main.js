@@ -49,6 +49,7 @@ let music = document.querySelector(".current-play .music");
 let artist = document.querySelector(".current-play .artist");
 let audio = new Audio();
 let currentMusic = 0;
+let volumeSlider = document.querySelector("#volume-slider");
 
 function clutter() {
     let music = "";
@@ -119,8 +120,15 @@ function next() {
     playTrack(nextIndex);
 }
 
+function updateVolume() {
+    audio.volume = volumeSlider.value;
+}
+
 let isPause = 0;
+audio.volume = volumeSlider.value;
+
 musicList.addEventListener("click", playMusic);
 playPauseBtn.addEventListener("click", playPause);
 previousMusic.addEventListener("click", previous);
 nextMusic.addEventListener("click", next);
+volumeSlider.addEventListener("input", updateVolume);

@@ -52,7 +52,7 @@ body {
 .music-list {
     display: flex;
     flex-direction: column;
-    padding: 5px 15px;
+    padding: 10px 15px;
 }
 
 .music-list .music {
@@ -61,7 +61,6 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 5px 10px;
-    /* border-radius: 5px; */
     border-top: 1px solid #444;
 }
 
@@ -97,11 +96,13 @@ body {
 
 .controls {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
     gap: 10px;
-    margin-top: 5px;
-    padding: 10px;
+    padding: 15px 0;
+}
+
+i {
+    font-size: 2rem;
 }
 
 .controls button {
@@ -111,7 +112,6 @@ body {
     border-radius: 50%;
     background-color: #222;
     color: #fff;
-    font-size: 2rem;
 }
 
 .controls button:active {

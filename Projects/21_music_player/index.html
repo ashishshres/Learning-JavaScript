@@ -14,8 +14,22 @@
         <div class="current-play">
             <div class="left"></div>
             <div class="right">
-                <h1 class="music">Phool</h1>
-                <p class="artist">Sujan Chapagain</p>
+                <div>
+                    <h1 class="music">Phool</h1>
+                    <p class="artist">Sujan Chapagain</p>
+                </div>
+                <div class="controls">
+                    <div class="play">
+                        <button class="previous-music"><i class="ri-arrow-left-s-line"></i></button>
+                        <button class="play-pause-music"><i class="ri-arrow-right-s-fill"></i></button>
+                        <button class="next-music"><i class="ri-arrow-right-s-line"></i></button>
+                    </div>
+                    <div class="volume">
+                        <input type="range" name="volume-slider" id="volume-slider" min="0" max="1" step="0.01"
+                            value="1">
+                    </div>
+                </div>
+
             </div>
         </div>
         <div class="music-list">
@@ -78,11 +92,7 @@
                 <div class="right">5:03</div>
             </div> -->
         </div>
-        <div class="controls">
-            <button class="previous-music"><i class="ri-arrow-left-s-line"></i></button>
-            <button class="play-pause-music"><i class="ri-arrow-right-s-fill"></i></button>
-            <button class="next-music"><i class="ri-arrow-right-s-line"></i></button>
-        </div>
+
     </div>
     <script src="main.js"></script>
 </body>

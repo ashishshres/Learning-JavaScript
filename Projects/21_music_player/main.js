@@ -48,10 +48,10 @@ let nextMusic = document.querySelector(".next-music");
 let music = document.querySelector(".current-play .music");
 let artist = document.querySelector(".current-play .artist");
 let audio = new Audio();
-let currentMusic = 0;
 let volumeSlider = document.querySelector("#volume-slider");
 
 function clutter() {
+    let currentMusic = 0;
     let music = "";
     musicData.forEach(function (data, index) {
         music += `<div class="music music1" id="${index}">
@@ -75,7 +75,7 @@ function clutter() {
 clutter();
 
 function playMusic(e) {
-    playTrack(e.target.id);
+    playTrack(Number(e.target.id));
 }
 
 function playTrack(index) {
@@ -103,6 +103,8 @@ function playPause() {
         audio.play();
     }
 }
+
+let currentIndex = 0;
 
 function previous() {
     let previousIndex = currentIndex - 1;

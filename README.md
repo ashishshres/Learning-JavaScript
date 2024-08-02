@@ -64,3 +64,9 @@
 -   Creating a New Element
 -   Editing and Removing DOM Elements
 -   Events, Event Propagation, Event Bubbling, Event Capturing
+
+## Asynchronous JavaScript
+
+-   Async Code, Blocking vs Non Blocking Code
+-   Event Loop
+-   `setTimeout()` and `setInterval()`

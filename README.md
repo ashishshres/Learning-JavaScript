@@ -70,3 +70,5 @@
 -   Async Code, Blocking vs Non Blocking Code
 -   Event Loop
 -   `setTimeout()` and `setInterval()`
+-   AJAX
+-   Promises, Async and Await

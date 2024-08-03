@@ -71,4 +71,6 @@
 -   Event Loop
 -   `setTimeout()` and `setInterval()`
 -   AJAX
--   Promises, Async and Await
+-   Promises
+-   Async and Await
+-   Fetch

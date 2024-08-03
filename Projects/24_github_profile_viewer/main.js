@@ -34,7 +34,7 @@ const makeCard = (data) => {
                             name ? name : "This profile has no name"
                         }</p>
                         <p class="username">@${login}</p>
-                        <p class="join">${joinedDate}</p>
+                        <p class="join">Joined ${joinedDate}</p>
                     </div>
                 </div>
                 <div class="bio">${bio ? bio : "This profile has no bio"}</div>

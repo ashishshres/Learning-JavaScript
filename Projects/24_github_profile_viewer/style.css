@@ -114,3 +114,13 @@ button:active {
 .error {
     text-align: center;
 }
+
+.name {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.count span,
+.username {
+    color: grey;
+}

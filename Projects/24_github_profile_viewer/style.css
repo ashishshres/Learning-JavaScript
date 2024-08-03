@@ -35,6 +35,11 @@ i {
     font-size: 2rem;
 }
 
+main {
+    width: 400px;
+    max-width: 100%;
+}
+
 .search {
     margin-top: 10px;
     margin-bottom: 20px;

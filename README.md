@@ -85,3 +85,4 @@
 -   Classes, Inheritance, `super` Keyword
 -   Static Props
 -   `Object.getOwnPropertyDescriptor()`, `Object.defineProperty()`
+-   Getter and Setter

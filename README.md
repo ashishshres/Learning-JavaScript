@@ -81,6 +81,6 @@
 -   Constructor Functions
 -   New Instances, `new` Keyword
 -   Prototype, Prototype Inheritance
--   `call` Keyword,
+-   `call` Keyword, `bind` Keyword,
 -   Classes, Inheritance, `super` Keyword
 -   Static Props

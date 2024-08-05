@@ -86,3 +86,4 @@
 -   Static Props
 -   `Object.getOwnPropertyDescriptor()`, `Object.defineProperty()`
 -   Getter and Setter
+-   Lexical Scoping and Closures

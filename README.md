@@ -79,4 +79,5 @@
 
 -   Object Literals
 -   Constructor Functions
--   New Instances
+-   New Instances, `new` Keyword
+-   Prototype, Prototype Inheritance

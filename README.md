@@ -84,3 +84,4 @@
 -   `call` Keyword, `bind` Keyword,
 -   Classes, Inheritance, `super` Keyword
 -   Static Props
+-   `Object.getOwnPropertyDescriptor()`, `Object.defineProperty()`

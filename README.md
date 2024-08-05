@@ -74,3 +74,9 @@
 -   Promises
 -   Async and Await
 -   Fetch
+
+## OOP
+
+-   Object Literals
+-   Constructor Functions
+-   New Instances

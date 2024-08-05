@@ -81,3 +81,4 @@
 -   Constructor Functions
 -   New Instances, `new` Keyword
 -   Prototype, Prototype Inheritance
+-   `call`

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation</title>
+</head>
+
+<body style="background-color: #212121; color: #fff;">
+    <h1 id="heading">DOM Manipulation</h1>
+    <p class="first-para" name="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, saepe.
+    </p>
+    <p class="second-para">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Quisquam dolore voluptatum labore
+        repellat dolor tempora
+        inventore ducimus vero quibusdam modi!</p>
+    <p class="third-para" style="border: 1px solid #fff;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Temporibus sit beatae consectetur
+        fuga molestiae cumque impedit maiores, quam ratione nobis a perspiciatis vel voluptates voluptate.</p>
+    <ul>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>Java</li>
+    </ul>
+    <button>Click me</button>
+
+    <script>
+        // Task 1: Select an HTML element by its ID and change its text content.
+        document.getElementById("heading").textContent = "JavaScript";
+
+        // Task 2: Select an HTML element by its class and change its background color.
+        // document.getElementsByClassName("first-para").style.backgroundColor = "green"; // gives error because it returns HTMLCollection not a single element
+        document.getElementsByClassName("first-para")[0].style.backgroundColor = "green";
+
+        // Task 3: Create a new `div` element with some text content and append it to the body.
+        const div = document.createElement("div");
+        div.innerText = "Lorem, ipsum dolor sit amet consectetur";
+        document.body.appendChild(div);
+
+        // Task 4: Create a new li element and add it to an existing ul list.
+        const ul = document.querySelector("ul");
+        const li = document.createElement("li");
+        li.innerText = "GoLang";
+        ul.appendChild(li);
+
+        // Task 5: Select an HTML element and remove it from the DOM.
+        const paraTwo = document.querySelector(".second-para");
+        // document.body.removeChild(paraTwo);
+        paraTwo.remove();
+
+        // Task 6: Remove the last child of a specific HTML element.
+        const lastChild = ul.lastChild;
+        lastChild.remove();
+
+        // Task 7: Select an HTML element and change one of its attributes (e.g., src of an img tag).
+        const firstPara = document.querySelector(".first-para");
+        firstPara.setAttribute("name", "first-paragraph");
+
+        // Task 8: Add and remove a CSS class to/from an HTML element.
+        const btn = document.querySelector("button");
+        btn.classList.add("click-btn");
+        // btn.classList.remove("click-btn");
+
+        // Task 9: Add a click event listener to a button that changes the text content of a paragraph.
+        btn.addEventListener("click", () => {
+            firstPara.innerText = "GoLang";
+        })
+
+        // Task 10: Add a mouseover event listener to an element that changes its border color.
+        const thirdPara = document.querySelector(".third-para");
+        thirdPara.addEventListener("mouseover", () => {
+            thirdPara.style.border = "1px solid orange";
+        })
+    </script>
+</body>
+
+</html>
